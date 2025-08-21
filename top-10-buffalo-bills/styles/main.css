@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(135deg, #00338D 0%, #FFFFFF 50%, #C60C30 100%);
+    color: #00338D;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #C60C30;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+    border-bottom: 5px solid #00338D;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+.players-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.player-card {
+    background: #fff;
+    border: 2px solid #00338D;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    width: 320px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    transition: transform 0.2s;
+}
+
+.player-card:hover {
+    transform: scale(1.03);
+    border-color: #C60C30;
+}
+
+.player-name {
+    color: #C60C30;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.player-accomplishments {
+    color: #00338D;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.player-description {
+    color: #222;
+    font-size: 1rem;
+}
+
+footer {
+    background: #00338D;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
